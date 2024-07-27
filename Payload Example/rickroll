@@ -1,4 +1,4 @@
-REM open take on me via builtin-google on android
+REM Opens Youtube app via Google to a Rickroll
 DELAY 400
 ESCAPE
 DELAY 400
