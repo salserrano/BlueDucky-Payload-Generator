@@ -1,0 +1,12 @@
+REM open take on me via builtin-google on android
+DELAY 400
+ESCAPE
+DELAY 400
+ESCAPE
+DELAY 400
+ESCAPE
+DELAY 300
+STRING youtu.be/dQw4w9WgXcQ
+DELAY 300
+ENTER
+DELAY 300
