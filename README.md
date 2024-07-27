@@ -4,7 +4,7 @@ This is a simple payload generator for [pentestfunctions's BlueDucky](https://gi
 
 Once generated, move the payload file into the payload folder of BlueDucky.
 
-Also included an rickroll payload as example.
+I included an rickroll payload as example.
 
 *** ***Generated scripts has been tested on a Samsung device. For other android brands, not sure if payload would work.*** ***	
 
