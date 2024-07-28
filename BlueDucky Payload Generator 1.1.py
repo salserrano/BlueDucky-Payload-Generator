@@ -101,10 +101,9 @@ def main():
             payload_lines[0] += f" {link_text} via Incognito Browser"
             payload_lines.extend([
                 "ESCAPE",
-                "DELAY 400",
-                "ESCAPE",
-                "DELAY 400",
-                "ESCAPE",
+                "GUI d",
+                "ALT ESCAPE",
+                "GUI b",
                 "DELAY 700",
                 "PRIVATE_BROWSER",
                 "DELAY 700",
