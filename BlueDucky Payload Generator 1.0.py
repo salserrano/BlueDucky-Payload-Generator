@@ -66,7 +66,7 @@ def main():
         return
 
     # Prepare the output text
-    payload_lines = ["REM Opens", "DELAY 200"]
+    payload_lines = ["REM Opens", "DELAY 400"]
 
     if browser_or_youtube == '2':
         payload_lines[0] += f" {link_text} via Youtube App"
@@ -87,16 +87,13 @@ def main():
             payload_lines[0] += f" {link_text} via Browser"
             payload_lines.extend([
                 "ESCAPE",
-                "GUI d",
-                "ALT ESCAPE",
-                "GUI b",
-                "DELAY 700",
-                "BROWSER",
-                "DELAY 700",
-                "CTRL l",
+                "DELAY 400",
+                "ESCAPE",
+                "DELAY 400",
+                "ESCAPE",
                 "DELAY 300",
                 f"STRING {link_text}",
-                "DELAY 500",
+                "DELAY 300",
                 "ENTER",
                 "DELAY 300"
             ])
@@ -104,9 +101,10 @@ def main():
             payload_lines[0] += f" {link_text} via Incognito Browser"
             payload_lines.extend([
                 "ESCAPE",
-                "GUI d",
-                "ALT ESCAPE",
-                "GUI b",
+                "DELAY 400",
+                "ESCAPE",
+                "DELAY 400",
+                "ESCAPE",
                 "DELAY 700",
                 "PRIVATE_BROWSER",
                 "DELAY 700",
