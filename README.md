@@ -2,7 +2,7 @@
 
 This is a simple URL payload generator for [pentestfunctions's BlueDucky](https://github.com/pentestfunctions/BlueDucky).
 
-The script will create a "Generated Payloads" folder and output the text file there. Once generated, move the "payloads" file into the payload folder of BlueDucky.
+The script will create a "Generated Payloads" folder and output the text file there. Once generated, move the payloads file into the "payloads" folder of BlueDucky.
 
 I included a rickroll payload as example.
 
