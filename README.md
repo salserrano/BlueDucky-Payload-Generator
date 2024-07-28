@@ -1,4 +1,4 @@
-# BlueDucky Payload Generator Ver 1.0 beta (Android) 🦆
+# BlueDucky Payload Generator Ver 1.1 beta (Android) 🦆
 
 This is a simple payload generator for [pentestfunctions's BlueDucky](https://github.com/pentestfunctions/BlueDucky).
 
