@@ -13,7 +13,7 @@ I included a rickroll payload as example.
 - To open any browser links, it is assumed that the default browser has been configured within the phone's settings. We recommend setting Chrome as the default browser.
 
 Note:
-The output payload text file itself should work; any issues, such as technical errors, should be reported by opening an issue with the main BlueDucky repository.
+The output payload text file itself should work; any issues, such as technical errors, should be reported by opening an issue with the [main BlueDucky repository](https://github.com/pentestfunctions/BlueDucky/issues).
 
 
 ### Legal Disclaimer
