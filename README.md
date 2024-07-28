@@ -10,6 +10,10 @@ I included a rickroll payload as example.
 
 ## Discoveries I Made with Samsung Bluetooth Shortcuts:
 - I found that the fastest way to open a YouTube video is to use Android's built-in Google app. By typing in the YouTube link, the Google app automatically opens the YouTube app to play the video (assuming the YouTube app is configured to open default links via settings).
+- To open any browser links, it is assumed that the default browser has been configured within the phone's settings. We recommend setting Chrome as the default browser.
+
+Note:
+The output payload text file itself should work; any issues, such as technical errors, should be reported by opening an issue with the main BlueDucky repository.
 
 
 ### Legal Disclaimer
