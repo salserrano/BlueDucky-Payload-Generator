@@ -9,8 +9,8 @@ I included a rickroll payload as example.
 *** ***The generated scripts have been tested on a Samsung device. For other Android brands, there is no guarantee that the payload will work.*** ***	
 
 ## Discoveries I Made with Samsung Bluetooth Shortcuts:
-- I found that the fastest way to open any link is to use Android's built-in Google app. By typing in the URL in the Google app search, the Google app automatically opens the URL with the default browser on the device and the YouTube app if it's a YouTube URL (assuming the YouTube app is configured to open default links via settings).
-- To open any browser links, it is assumed that the default browser has been configured within the phone's settings. We recommend setting Chrome as the default browser.
+- I found that the fastest way to open any link is to use Android's built-in Google app. By typing the URL into the Google app search, the Google app automatically opens the URL with the default browser on the device and any supported address of installed apps. This means that with just a URL, an app can be opened, assuming these apps are configured to "open supported links" in their app settings. For example, the YouTube app automatically opens when a YouTube URL is entered.
+- For regular browser links that don't pertain to installed apps, I recommend setting Chrome as the default browser for opening these links.
 
 Note:
 - The output payload text file itself should work; any issues, such as technical errors, should be reported by opening an issue with the [main BlueDucky repository](https://github.com/pentestfunctions/BlueDucky/issues).
