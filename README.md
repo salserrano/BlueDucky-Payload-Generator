@@ -1,6 +1,6 @@
 # BlueDucky Payload Generator Ver 1.1 beta (Android) 🦆
 
-This is a simple payload generator for [pentestfunctions's BlueDucky](https://github.com/pentestfunctions/BlueDucky).
+This is a simple URL payload generator for [pentestfunctions's BlueDucky](https://github.com/pentestfunctions/BlueDucky).
 
 The script will create a "Generated Payloads" folder and output the text file there. Once generated, move the payload file into the payload folder of BlueDucky.
 
@@ -15,6 +15,7 @@ I included a rickroll payload as example.
 Note:
 - The output payload text file itself should work; any issues, such as technical errors, should be reported by opening an issue with the [main BlueDucky repository](https://github.com/pentestfunctions/BlueDucky/issues).
 - The commands run fast when executing and work well if the phone opens apps quickly. If the phone is slow and takes too long to open apps, it might miss the chance to type the link. I’ll create a slower version for slower phones in the future.
+- Possibly look into writing a more advanced payload beyond URL input in the future.
 
 
 ### Legal Disclaimer
