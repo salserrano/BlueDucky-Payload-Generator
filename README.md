@@ -13,7 +13,8 @@ I included a rickroll payload as example.
 - To open any browser links, it is assumed that the default browser has been configured within the phone's settings. We recommend setting Chrome as the default browser.
 
 Note:
-The output payload text file itself should work; any issues, such as technical errors, should be reported by opening an issue with the [main BlueDucky repository](https://github.com/pentestfunctions/BlueDucky/issues).
+- The output payload text file itself should work; any issues, such as technical errors, should be reported by opening an issue with the [main BlueDucky repository](https://github.com/pentestfunctions/BlueDucky/issues).
+- The commands run fast when executing and work well if the phone opens apps quickly. If the phone is slow and takes too long to open apps, it might miss the chance to type the link. I’ll create a slower version for slower phones in the future.
 
 
 ### Legal Disclaimer
